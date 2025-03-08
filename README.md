@@ -19,7 +19,8 @@ $$\log_{5}(n) =\frac{\log_{2}(n)}{\log_{2}(5)}$$
 
 $$\log_{2}(n) =\log_{5}(n) * \log_{2}(5)$$
 
-let $c_1$ = $\log_{2}(5)$
+Since $\log_2(5)$ is a positive constant, there exists some $c_1 = \log_2(5)$ such that:
+
 $$\log_{2}(n) =c_1 * \log_{5}(n) $$
 $$\equiv \log_{2}(n) \leq c_1 * \log_{5}(n) $$
 
@@ -28,7 +29,7 @@ which is the $T(n) \leq c \cdot f(n)$...
 2nd half:
 $$\log_{5}(n) =\frac{\log_{2}(n)}{\log_{2}(5)}$$
 
-let $c_2$ = $\frac{1}{\log_{2}(5)}$
+Since $\frac{1}{\log_2(5)}$ is a positive constant, there exists some $c_2 = \frac{1}{\log_2(5)}$ such that:
 $$\log_{5}(n) =c_2 * \log_{2}(n) $$
 $$\equiv \log_{5}(n) \leq c_2 * \log_{2}(n) $$
 which is the other side of the bi-implication.
